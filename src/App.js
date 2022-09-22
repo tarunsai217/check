@@ -3,8 +3,8 @@ import TopNav from './Components/TopNav'
 import About from './Components/About';
 // import Skills from './Components/Skills';
 // import Projects from './Components/Projects';
-// import Experience from './Components/Experience';
-import Footer from './Components/Footer'
+import Experience from './Components/Experience';
+// import Footer from './Components/Footer'
 function App() {
   return (
     <div className="app">
@@ -13,8 +13,8 @@ function App() {
       <About />
       {/* <Skills/> */}
       {/* <Projects/> */}
-      {/* <Experience/> */}
-      <Footer/>
+      <Experience/>
+      {/* <Footer/> */}
     </div>
   );
 }
