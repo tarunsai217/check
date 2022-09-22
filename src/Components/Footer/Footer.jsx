@@ -10,7 +10,7 @@ export default function Footer() {
   });
 
   const [emailSent, setEmailSent] = useState(false);
-
+  const [buttonText, setButtonText] = useState("Send Message");
   const onChangeHandler = (e) => {
     let change = {};
     change[e.target.id] = e.target.value;
@@ -20,6 +20,7 @@ export default function Footer() {
   };
 
   const sendMessage = async () => {
+    setButtonText("Sending Message");
     await emailjs.send(
       "service_z8toy58",
       "template_olxl95r",
@@ -29,6 +30,7 @@ export default function Footer() {
     setFormData({ name: "", email: "", message: "" });
     setEmailSent(true);
     setTimeout(() => {
+      setButtonText("Send Message");
       setEmailSent(false);
     }, 2000);
   };
@@ -76,7 +78,7 @@ export default function Footer() {
             disabled={!(formData.name && formData.email && formData.message)}
             onClick={sendMessage}
           >
-            Send Message
+            {buttonText}
           </button>
         )}
         {emailSent && (

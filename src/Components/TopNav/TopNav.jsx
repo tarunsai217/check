@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./TopNav.scss";
 import NavItem from "./Components/NavItem";
-import logo from "../../Assets/logo.jpeg";
+import logo from "../../Assets/logo.PNG";
 import { navData } from "../../Data";
 export default function TopNav() {
   return (
