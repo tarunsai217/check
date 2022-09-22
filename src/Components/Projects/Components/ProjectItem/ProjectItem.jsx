@@ -1,17 +1,14 @@
-import * as React from 'react';
-import './ProjectItem.scss';
-import GitIcon from '../../Assets/Git';
-import EyeIcon from '../../Assets/Eye';
-
-import eye from '../../Assets/eye.svg';
-import git from '../../Assets/git.svg';
+import * as React from "react";
+import "./ProjectItem.scss";
+import GitIcon from "../../Assets/Git";
+import EyeIcon from "../../Assets/Eye";
 
 export default function ProjectItem({ item }) {
   const { name, description, gitLink, urlLink, img, skills } = item;
   return (
     <div className="project-item">
       <div className="project-image">
-        <img src={img} />
+        <img alt="project-view" src={img} />
         <div className="mask">
           <a href={urlLink}>
             <div className="eye">

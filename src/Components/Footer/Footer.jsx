@@ -20,7 +20,7 @@ export default function Footer() {
   };
 
   const sendMessage = async () => {
-    let res = await emailjs.send(
+    await emailjs.send(
       "service_z8toy58",
       "template_olxl95r",
       formData,
