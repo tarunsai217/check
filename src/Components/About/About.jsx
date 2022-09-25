@@ -16,7 +16,7 @@ export default function About() {
           I'm a passionate <span>Frontend Developer</span>. I love creating
           beautiful, responsive websites using modern techstacks like{" "}
           <span>ReactJs</span> and
-          <span> AngularJs</span>.
+          <span> Angular</span>.
         </p>
         <a href={resume} className="resume">
           Download my Resume

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   padding: 4rem 5rem;
-
+  min-height: 100vh;
   .about {
     display: flex;
     flex-direction: column;
@@ -10,7 +10,6 @@
     align-items: flex-start;
     text-align: left;
     padding-right: 5rem;
-    min-height: 95vh;
     width: 100%;
 
     .intro-heading {
@@ -64,8 +63,7 @@
 
     .about {
       padding-right: 0px;
-      margin-bottom: 5rem;
-      width: 90%;
+      margin: 5rem 0;
       align-self: center;
     }
   }
