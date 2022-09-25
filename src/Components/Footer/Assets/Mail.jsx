@@ -2,12 +2,10 @@ import * as React from "react";
 export default function Mail({ fill }) {
   return (
     <svg
-      style={{ transform: "scale(4)" }}
+      id="mailicon"
       stroke="black"
       fill={fill}
       stroke-width="0"
-      width="1rem"
-      height="1rem"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >

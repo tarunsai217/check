@@ -34,6 +34,10 @@
         width: 30px;
         margin-right: 20px;
       }
+
+      #mailicon {
+        transform: scale(4);
+      }
       &:hover {
         background-color: #141414;
       }
@@ -103,13 +107,20 @@
 }
 
 @media (max-width: 900px) {
+  .feedback-heading {
+    font-size: 2rem !important;
+  }
   .cards {
     flex-direction: column;
 
     .card-item {
       margin-bottom: 2rem;
       margin-right: 0 !important;
-      width: 180px !important;
+      width: 240px !important;
+
+      #mailicon {
+        transform: scale(1.5) !important;
+      }
     }
   }
 }

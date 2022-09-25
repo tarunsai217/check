@@ -1,5 +1,6 @@
 import * as React from "react";
 import "./ProjectItem.scss";
+import { motion } from "framer-motion";
 import GitIcon from "../../Assets/Git";
 import EyeIcon from "../../Assets/Eye";
 
@@ -11,14 +12,28 @@ export default function ProjectItem({ item }) {
         <img alt="project-view" src={img} />
         <div className="mask">
           <a href={urlLink}>
-            <div className="eye">
+            <motion.div
+              whileInView={{ scale: [0, 1] }}
+              whileHover={{ scale: [1, 0.9] }}
+              transition={{
+                duration: 0.25,
+              }}
+              className="eye"
+            >
               <EyeIcon fill="#FFFFFF" />
-            </div>
+            </motion.div>
           </a>
           <a href={gitLink}>
-            <div className="git">
+            <motion.div
+              whileInView={{ scale: [0, 1] }}
+              whileHover={{ scale: [1, 0.9] }}
+              transition={{
+                duration: 0.25,
+              }}
+              className="git"
+            >
               <GitIcon fill="#FFFFFF" />
-            </div>
+            </motion.div>
           </a>
         </div>
       </div>
@@ -28,14 +43,28 @@ export default function ProjectItem({ item }) {
           {description}
           <div className="links">
             <a href={urlLink}>
-              <div className="eye">
+              <motion.div
+                whileInView={{ scale: [0, 1] }}
+                whileHover={{ scale: [1, 0.9] }}
+                transition={{
+                  duration: 0.25,
+                }}
+                className="eye"
+              >
                 <EyeIcon fill="#FFFFFF" />
-              </div>
+              </motion.div>
             </a>
             <a href={gitLink}>
-              <div className="git">
+              <motion.div
+                whileInView={{ scale: [0, 1] }}
+                whileHover={{ scale: [1, 0.9] }}
+                transition={{
+                  duration: 0.25,
+                }}
+                className="git"
+              >
                 <GitIcon fill="#FFFFFF" />
-              </div>
+              </motion.div>
             </a>
           </div>
         </p>
