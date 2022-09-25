@@ -10,9 +10,6 @@ import { motion } from "framer-motion";
 export default function TopNav() {
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const expandHandler = (key) => {
-    setIsExpanded(key);
-  };
   return (
     <nav className="top-navigation">
       <div className="logo-wrapper">
