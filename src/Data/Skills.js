@@ -26,7 +26,7 @@ import {
     { name: 'Typescript', img: typescript },
     { name: 'Node JS', img: nodejs },
     { name: 'Express JS', img: express },
-    { name: 'firebase', img: firebase },
+    { name: 'Firebase', img: firebase },
     { name: 'Socket IO', img: socketio },
   ];
 

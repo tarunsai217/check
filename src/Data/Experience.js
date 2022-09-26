@@ -3,22 +3,22 @@ const experiences = [
       position: 'Web developer intern',
       company: 'Cognizant Technology Solutions',
       description:
-        'Responsible for creating and maintaining the website using HTML, CSS, Bootstrap and Flask',
-      year: 'December 2020-May 2019',
+        'Have built a Shopping application similar to Amazon with mern stack',
+      year: 'December 2020-June 2021',
     },
     {
-      position: 'Web developer intern',
+      position: 'Program Analyst Trainee',
       company: 'Cognizant Technology Solutions',
       description:
-        'Responsible for creating and maintaining the website using HTML, CSS, Bootstrap and Flask',
-      year: 'December 2020-May 2019',
+        "Responsible for creating and maintaining the client's website using React,HTML, CSS, Bootstrap and overlooked the implementation of accessibility to the entire application ",
+      year: 'July 2021-February 2022',
     },
     {
-      position: 'Web developer intern',
-      company: 'Cognizant Technology Solutions',
+      position: 'Associate Software Engineer',
+      company: 'Global Logic',
       description:
-        'Responsible for creating and maintaining the website using HTML, CSS, Bootstrap and Flask',
-      year: 'December 2020-May 2019',
+        'Developing the UI for a dynamic full-stack application in Angular internal to Google along with proper test coverage using jasmine',
+      year: 'March 2022-Present',
     },
   ];
 
