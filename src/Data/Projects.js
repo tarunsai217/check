@@ -32,7 +32,7 @@ const projectItems = [
         "A react-npm package for developers implementing an overlay loading in their project",
       gitLink: "https://github.com/tarunsai217/react-loading",
       urlLink: "https://www.npmjs.com/package/react-loader-io",
-      img: "https://i.ibb.co/ns4QR7d/sample-image.png",
+      img:"https://i.ibb.co/2KFWjgJ/react-loading.png",
       skills: ["React", "Webpack", "NPM"],
     },
   ];
