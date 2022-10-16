@@ -2,7 +2,7 @@ const projectItems = [
     {
       name: "Juice Center App",
       description:
-        "An Anime tracker app where you can track the anime episodes you're currently watching. Made using Vue3",
+        "Juice Center App is an advertising page to bring in more influx of customers for the juice center business of my friend.",
       gitLink: "https://github.com/tarunsai217/Juice",
       urlLink: "https://juicecenter.netlify.app/",
       img: "https://i.ibb.co/Scz4x5p/juice.png",
@@ -20,20 +20,20 @@ const projectItems = [
         {
       name: "To-Do List App",
       description:
-        "A To Do List App made using React. Has both light and dark mode",
+        "A To Do List App made using React. Has both light and dark mode.",
       gitLink: "https://github.com/tarunsai217/Todos",
       urlLink: "https://todos-flame.vercel.app/",
       img: "https://i.ibb.co/LSrySTS/todo.png",
       skills: ["React", "Sass"],
     },
     {
-      name: "Fiber Landing Page",
+      name: "React Loading Package",
       description:
-        "A landing page for Fiber that makes portfolios for users. ",
-      gitLink: "https://www.google.com/",
-      urlLink: "https://www.google.com/",
+        "A react-npm package for developers implementing an overlay loading in their project",
+      gitLink: "https://github.com/tarunsai217/react-loading",
+      urlLink: "https://www.npmjs.com/package/react-loader-io",
       img: "https://i.ibb.co/ns4QR7d/sample-image.png",
-      skills: ["Angular", "API", "VITE"],
+      skills: ["React", "Webpack", "NPM"],
     },
   ];
 
